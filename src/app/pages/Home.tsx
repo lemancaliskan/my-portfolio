@@ -5,6 +5,7 @@ import { translations } from '../utils/translations';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
+import profileImg from '../../assets/portrait.jpg';
 
 export function Home() {
   const { language } = useApp();
@@ -139,9 +140,9 @@ export function Home() {
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#97DFFC] relative"
               >
                 <ImageWithFallback
-                  src="/assets/portrait.jpg"
-                  className="w-full h-full object-cover"
-                />
+                src={profileImg}
+                className="w-full h-full object-cover"
+              />
               </motion.div>
               <motion.div
                 animate={{ rotate: 360 }}
