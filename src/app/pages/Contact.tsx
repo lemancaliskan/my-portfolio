@@ -16,17 +16,26 @@ export function Contact() {
     name: '',
     surname: '',
     email: '',
-    message: ''
+    message: '',
+    middleName: '' 
   });
 
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+
+    if (formData.middleName !== '') {
+      console.log("Bot detected!");
+      setStatus('success'); 
+      return;
+    }
+
     setStatus('sending');
 
     try {
-      
+
       const webhookUrl = import.meta.env.VITE_N8N_WEBHOOK_URL;
       
       const response = await fetch(webhookUrl, {
@@ -35,13 +44,20 @@ export function Contact() {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+            name: formData.name,
+            surname: formData.surname,
+            email: formData.email,
+            message: formData.message
+        })
       });
 
       if (!response.ok) throw new Error('Network response was not ok');
 
       setStatus('success');
-      setFormData({ name: '', surname: '', email: '', message: '' });
+     
+      setFormData({ name: '', surname: '', email: '', message: '', middleName: '' });
+      
       setTimeout(() => setStatus('idle'), 5000);
     } catch (error) {
       console.error("Webhook Error:", error);
@@ -88,6 +104,18 @@ export function Contact() {
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
+
+              <div className="hidden" aria-hidden="true">
+                <input
+                  type="text"
+                  name="middleName"
+                  value={formData.middleName}
+                  onChange={handleChange}
+                  tabIndex={-1}
+                  autoComplete="off"
+                />
+              </div>
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Label htmlFor="name" className="text-[#613DC1] dark:text-[#858AE3]">
@@ -99,7 +127,6 @@ export function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    placeholder={language === 'en' ? '' : ''}
                     className="bg-input-background border-[#97DFFC]/30 focus:border-[#613DC1] text-foreground"
                   />
                 </div>
@@ -114,7 +141,6 @@ export function Contact() {
                     value={formData.surname}
                     onChange={handleChange}
                     required
-                    placeholder={language === 'en' ? '' : ''}
                     className="bg-input-background border-[#97DFFC]/30 focus:border-[#613DC1] text-foreground"
                   />
                 </div>
