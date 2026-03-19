@@ -42,6 +42,18 @@ This project is a synergy of AI-assisted design and manual craftsmanship. While 
 
 - **Personalized Elements:** Hand-crafted the footer and fine-tuned the transitions to ensure a complete, polished landing page that goes beyond standard AI templates.
 
+## Screenshots 
+<p align="center">
+<img width="670" alt="home" src="https://github.com/user-attachments/assets/274fcff8-d7bc-4902-b743-7223da6dea14" />
+<img width="670" alt="hometr" src="https://github.com/user-attachments/assets/c204f719-4422-46eb-94b5-f78aca3b7995" />
+<img width="670" alt="projects" src="https://github.com/user-attachments/assets/c1e2e780-5a28-491a-bab7-c29b4524dbbe" />
+<img width="670" alt="skills" src="https://github.com/user-attachments/assets/d5d3caef-59c9-4136-9a86-d2d44f7f5012" />
+<img width="670" alt="iletisim" src="https://github.com/user-attachments/assets/23c1d174-d433-4692-a03b-dc5b83a4d035" />
+<img width="445" alt="telegram--test" src="https://github.com/user-attachments/assets/6cabc40c-a12b-4906-92f2-908cc8003c05" />
+<img width="951" alt="gmail--test" src="https://github.com/user-attachments/assets/27252b74-914c-45a3-8e0a-b7d1b47b24cd" />
+</p> 
+
+
 ## 📁 Featured Projects
 
 | Project | Tech Stack | Description |
