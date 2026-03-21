@@ -22,7 +22,7 @@ export function Projects() {
     },
     {
       ...t.projects.project3,
-      github: 'https://github.com/lemancaliskan',
+      github: 'https://github.com/lemancaliskan/Shelfy-Digital-Library',
       demo: null,
       gradient: 'from-[#858AE3] to-[#97DFFC]'
     }
