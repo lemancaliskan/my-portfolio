@@ -60,7 +60,7 @@ This project is a synergy of AI-assisted design and manual craftsmanship. While 
 | :--- | :--- | :--- |
 | **CardioMetrics-Core** | Python, Scikit-learn, Streamlit | AI-powered cardiovascular risk assessment tool. |
 | **SleepMetrics** | Random Forest, Gradient Boosting | Sleep health diagnostic tool with 99.08% accuracy. |
-| **Shelfy** | CustomTkinter, Database | Modern digital library management system. |
+| **Shelfy** | PySide6, CustomTkinter, Database | Modern digital library management system. |
 
 ## 🛡️ Security & Performance
 The contact form is not just a UI element—it's a fully functional communication engine. By utilizing **Environment Variables** on Netlify and a **Pipedream** serverless workflow, the system ensures zero credential leakage while maintaining high-speed message delivery.
