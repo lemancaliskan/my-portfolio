@@ -31,7 +31,7 @@ export const translations = {
       project3: {
         name: 'Shelfy',
         description: 'Digital Library Management System - A modern Python/CustomTkinter app featuring a sleek card-based dashboard for book collections, advanced filtering, and real-time search capabilities.',
-        tags: ['Python', 'CustomTkinter', 'GUI', 'Database', 'CRUD']
+        tags: ['Python', 'PySide6', 'Library Management', 'Database', 'GUI', 'CRUD', 'i18n', 'CustomTkinter']
       }
     },
     skills: {
@@ -87,7 +87,7 @@ export const translations = {
       project3: {
         name: 'Shelfy',
         description: 'Dijital Kütüphane Yönetim Sistemi - Kitap koleksiyonları, gelişmiş filtreleme ve gerçek zamanlı arama özellikleri için zarif kart tabanlı bir gösterge paneline sahip modern Python/CustomTkinter uygulaması.',
-        tags: ['Python', 'CustomTkinter', 'GUI', 'Veritabanı', 'CRUD']
+        tags: ['Python', 'PySide6', 'Kütüphane Yönetimi', 'Veritabanı', 'GUI', 'CRUD', 'i18n', 'CustomTkinter']
       }
     },
     skills: {
