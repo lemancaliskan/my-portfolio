@@ -65,5 +65,10 @@ This project is a synergy of AI-assisted design and manual craftsmanship. While 
 ## 🛡️ Security & Performance
 The contact form is not just a UI element—it's a fully functional communication engine. By utilizing **Environment Variables** on Netlify and a **Pipedream** serverless workflow, the system ensures zero credential leakage while maintaining high-speed message delivery.
 
+
+## ⚖️ License
+
+This project is licensed under the MIT License. See the ``LICENSE`` file for more details.
+
 ---
 <p align="center">Developed with ❤️ by <b>Leman Çalışkan</b> <br> <em>Always open to discussing new projects and creative ideas.</em></p> 
