@@ -32,6 +32,11 @@ export const translations = {
         name: 'Shelfy',
         description: 'Digital Library Management System - A modern Python/CustomTkinter app featuring a sleek card-based dashboard for book collections, advanced filtering, and real-time search capabilities.',
         tags: ['Python', 'PySide6', 'Library Management', 'Database', 'GUI', 'CRUD', 'i18n', 'CustomTkinter']
+      },
+        project4: {
+        name: 'Nice Birthday',
+        description: 'Interactive React.js web application for birthday greetings. Includes state-managed animations, CSS-based spiral candle designs, and responsive Ul components.',
+        tags: ['Web Development', 'Frontend', 'Javascript', 'CSS Animation', 'Interactive UI', ]
       }
     },
     skills: {
@@ -88,6 +93,11 @@ export const translations = {
         name: 'Shelfy',
         description: 'Dijital Kütüphane Yönetim Sistemi - Kitap koleksiyonları, gelişmiş filtreleme ve gerçek zamanlı arama özellikleri için zarif kart tabanlı bir gösterge paneline sahip modern Python/CustomTkinter uygulaması.',
         tags: ['Python', 'PySide6', 'Kütüphane Yönetimi', 'Veritabanı', 'GUI', 'CRUD', 'i18n', 'CustomTkinter']
+      },
+      project4: {
+        name: 'Nice Birthday',
+        description: 'Doğum günü kutlamaları için etkileşimli React.js web uygulaması. State yönetimli animasyonlar, CSS tabanlı spiral mum tasarımları ve responsive kullanıcı arayüzü bileşenleri içerir.',
+        tags: ['Web Geliştirme', 'Frontend', 'Javascript', 'CSS Animasyon', 'Etkileşimli Kullanıcı Arayüzü', ]
       }
     },
     skills: {

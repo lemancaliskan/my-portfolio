@@ -18,13 +18,19 @@ export function Projects() {
       ...t.projects.project2,
       github: 'https://github.com/lemancaliskan/CardioMetrics-Core',
       demo: 'https://cardiometrics-core.streamlit.app',
-      gradient: 'from-[#4E148C] to-[#858AE3]'
+      gradient: 'from-[#858AE3] to-[#97DFFC]'
     },
     {
       ...t.projects.project3,
       github: 'https://github.com/lemancaliskan/Shelfy-Digital-Library',
       demo: null,
-      gradient: 'from-[#858AE3] to-[#97DFFC]'
+      gradient: 'from-[#4E148C] to-[#858AE3]'
+    },
+    {
+      ...t.projects.project4,
+      github: 'https://github.com/lemancaliskan/Birthday-App',
+      demo: 'https://nicebirthday.netlify.app',
+      gradient: 'from-[#613DC1] to-[#97DFFC]'
     }
   ];
 
