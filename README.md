@@ -2,12 +2,12 @@
 
 <div align="center">
 
-[![Live Site](https://img.shields.io/badge/Live_Demo-lemancaliskan.netlify.app-success?style=for-the-badge&logo=netlify&logoColor=white)](https://lemancaliskan.netlify.app)
+[![Live Site](https://img.shields.io/badge/Live_Demo-lemancaliskan.pages.dev-success?style=for-the-badge&logo=cloudflare&logoColor=white)](https://lemancaliskan.pages.dev)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-**Explore my work and expertise at:** [lemancaliskan.netlify.app](https://lemancaliskan.netlify.app)
+**Explore my work and expertise at:** [lemancaliskan.pages.dev](https://lemancaliskan.pages.dev)
 
 </div>
 
