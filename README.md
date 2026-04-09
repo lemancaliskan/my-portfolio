@@ -42,7 +42,7 @@ This project is a synergy of AI-assisted design and manual craftsmanship. While 
 
 - **Personalized Elements:** Hand-crafted the footer and fine-tuned the transitions to ensure a complete, polished landing page that goes beyond standard AI templates.
 
-## Screenshots 
+## 📷 Screenshots 
 <p align="center">
 <img width="670" alt="home" src="https://github.com/user-attachments/assets/274fcff8-d7bc-4902-b743-7223da6dea14" />
 <img width="670" alt="hometr" src="https://github.com/user-attachments/assets/c204f719-4422-46eb-94b5-f78aca3b7995" />
@@ -53,7 +53,6 @@ This project is a synergy of AI-assisted design and manual craftsmanship. While 
 <img width="951" alt="gmail--test" src="https://github.com/user-attachments/assets/27252b74-914c-45a3-8e0a-b7d1b47b24cd" />
 </p> 
 
-
 ## 📁 Featured Projects
 
 | Project | Tech Stack | Description |
@@ -61,14 +60,52 @@ This project is a synergy of AI-assisted design and manual craftsmanship. While 
 | **CardioMetrics-Core** | Python, Scikit-learn, Streamlit | AI-powered cardiovascular risk assessment tool. |
 | **SleepMetrics** | Random Forest, Gradient Boosting | Sleep health diagnostic tool with 99.08% accuracy. |
 | **Shelfy** | PySide6, CustomTkinter, Database | Modern digital library management system. |
+| **Nice Birthday** | React, Javascript, Css, Html | Interactive Birthday Greeting Web App |
+
 
 ## 🛡️ Security & Performance
 The contact form is not just a UI element—it's a fully functional communication engine. By utilizing **Environment Variables** on Netlify and a **Pipedream** serverless workflow, the system ensures zero credential leakage while maintaining high-speed message delivery.
 
 
+## 🛠️ Installation and Usage
+
+Follow these steps to run the project on your local machine:
+```bash
+# Clone the repository:
+git clone https://github.com/lemancaliskan/my-portfolio.git
+
+# Navigate to the project directory:
+cd my-portfolio
+
+# Install dependencies:
+npm install
+
+# Start the application:
+npm run dev
+
+The application will open in your browser at http://localhost:3000
+```
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+```bash
+# Fork the Project
+
+# Create your Feature Branch 
+(git checkout -b feature/AmazingFeature)
+
+# Commit your Changes 
+(git commit -m 'Add some AmazingFeature')
+
+# Push to the Branch 
+(git push origin feature/AmazingFeature)
+
+# Open a Pull Request
+```
+
 ## ⚖️ License
 
 This project is licensed under the MIT License. See the ``LICENSE`` file for more details.
 
----
-<p align="center">Developed with ❤️ by <b>Leman Çalışkan</b> <br> <em>Always open to discussing new projects and creative ideas.</em></p> 
