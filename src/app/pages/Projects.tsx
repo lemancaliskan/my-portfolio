@@ -29,7 +29,7 @@ export function Projects() {
     {
       ...t.projects.project4,
       github: 'https://github.com/lemancaliskan/Birthday-App',
-      demo: 'https://nicebirthday.netlify.app',
+      demo: 'https://lemancaliskan.github.io/birthday-app/',
       gradient: 'from-[#613DC1] to-[#97DFFC]'
     }
   ];
